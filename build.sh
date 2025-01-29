@@ -11,7 +11,9 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf install -y tmux 
-dnf install -y bitwarden 
+
+dnf install -y elisa-player 
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
