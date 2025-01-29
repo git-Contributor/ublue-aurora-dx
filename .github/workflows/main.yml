@@ -9,6 +9,7 @@ on:
       parent_job_name:
         required: true
         type: string
+  workflow_dispatch:
 
 jobs:
   load_vars:
